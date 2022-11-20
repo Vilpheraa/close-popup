@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.signup {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    top: 50%;
+    left: 45%;
+    position: absolute;
+    cursor: pointer;
+}
+.openpop{
+    
+    border-radius: 30px ;
+    width: 500px;
+    height: 450px;
+    display: block;
+    font-size: 20px;
+    padding: 23px;
+    background-color: darkgray;
+    color: black;
+    position: absolute;
+    top: -150%;
+    left: 30%;
+    /* transform: translate(-50%, -50%) scale(1.25); */
+    
+    
+
+}
+.openpop.active {
+    top: 10%;
+    left: 30%;
+    /* transform: translate(-50%, -50%) scale(1); */
+}
+.input {
+    width: 450px;
+    height: 60px;
+    font-size: large;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    /* border: 1px solid; */
+    margin-left: 10px;
+}
+.Login {
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.Login:hover{
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+.close {
+    width: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    top: 6%;
+    left: 90%;
+    
+}
